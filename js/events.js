@@ -3,7 +3,7 @@
 $(document).ready(function(){
   $('p').on('click', getIt);
   $('img').on('load', frameIt);
-  $('input').on('keydown', pressIt);
+  $('#typing').on('keydown', pressIt);
   $('form').on('submit', submitIt);
 });
 
@@ -16,7 +16,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  if(this.key == 71) {
+  if(event.key == 71) {
     alert('You pressed G!')
   }
 }
