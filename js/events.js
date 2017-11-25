@@ -16,7 +16,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  if(event.key == 71) {
+  if(event.key == 'g') {
     alert('You pressed G!')
   }
 }
