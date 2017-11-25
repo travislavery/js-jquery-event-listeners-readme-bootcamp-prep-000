@@ -12,7 +12,7 @@ function getIt() {
 }
 
 function frameIt() {
-  this.addClass('tasty')
+  $('img').addClass('tasty')
 }
 
 function pressIt() {
